@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "budgettracker-6e604",
+          "appId": "1:797281644338:android:f3674e71ca8017d940b12b",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "budgettracker-6e604",
+          "configurations": {
+            "android": "1:797281644338:android:f3674e71ca8017d940b12b",
+            "ios": "1:797281644338:ios:36a28cb5af8d677240b12b",
+            "macos": "1:797281644338:ios:36a28cb5af8d677240b12b",
+            "web": "1:797281644338:web:3f119c6dded4849e40b12b",
+            "windows": "1:797281644338:web:be7be9616124cab040b12b"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
