@@ -106,7 +106,7 @@ class _BudgettrackerState extends State<Budgettracker> {
           children: [
             Text(
               'Balance: \$${_balance.toStringAsFixed(2)}',
-              style: const TextStyle(fontSize: 24),
+              style: const TextStyle(fontSize: 24, color: white),
               selectionColor: Colors.cyanAccent,
             ),
             const SizedBox(height: 20),
